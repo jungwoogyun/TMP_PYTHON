@@ -29,10 +29,10 @@
 # 04 정수(진수:2진수,8진수,10진수,16진수)
 # -----------------
 #0b : 뒤에오는 수는 이진테이터(비트열)
-print(0b00000001)
-print(0b00000010)
-print(0b00000011)
-print(0b00000100)
+# print(0b00000001)
+# print(0b00000010)
+# print(0b00000011)
+# print(0b00000100)
 
 # # 10->2진수 변환
 # 10진수				2진수
@@ -102,22 +102,100 @@ print(0b00000100)
 # 97	-> 00000000
 # 111	-> 00000000
 
+# print(0o177)
+# print(0x0F) #
 
 
+# -----------------
+# 05 실수
+# -----------------
+# print(3.14)
+# print(1.5e-2) #
+# print(1.5 + 2.54j)
+
+# -----------------
+# 06 논리
+# -----------------
+# print(type(True), type(False))
+# print(bool(0))
+# print(bool(-1))
+# print(bool(''))
+# print(bool('a'))
+
+# -----------------
+# 07 문자열
+# -----------------
+# s1 = 'HELLO\nWORLD'
+# s2 = "MY NAME IS"
+# s3 = '''
+#     동해물과 백두산이
+#     마르고 닳도록
+# '''
+#
+# print(s1)
+# print(type(s1))
 
 
+# -----------------
+# 07 문자열
+# -----------------
+# s1 = 'HELLO WORLD'
+# print(len(s1) )
+# print(s1[-2])
+#
+# print(s1[0:5])
+# print(s1[6:])
+# print(s1[:4])
+# print(s1[::2])
+# print(s1[::-1])
 
 
+# -----------------
+# 08 연결(+) 과 반복(*)
+# -----------------
+# n1 = 10
+# n2 = 20
+# s1 = "Python"
+# s2 = "Programming"
+# print(s1 + " " + s2)
+# print(s1 * 3)
 
+# -----------------
+# 09 찾기 — find() / index() / in
+# -----------------
+# s = "Python Programming"
+# print(s.find("Pro"))
+# print(s.find("Java"))
+# print(s.index("Pro"))
+# # print(s.index("Java"))
+# print("Pro" in s)
+# print("Java"in s)
 
+# -----------------
+# 10 대/소문자 변환
+# -----------------
+# s="Python"
+# print(s.upper())
+# print(s.lower())
+# -----------------
+# 11 치환
+# -----------------
+# s = "Python is fun"
+# print(s.replace("Python", "Java"))
+# s = s.replace("Python", "Java")
+# print(s)
+# -----------------
+# 12 개수 세기 / 나누기
+# -----------------
+s = "banana"
+print(s.count("a"))
 
-
-
-
-
-
-
-
+csv="apple,banana,cherry"
+print(csv.split(",")) # ['apple', 'banana', 'cherry']
+arr=csv.split(",")
+print("--------------")
+print(csv[0])
+print(arr[0])
 
 
 
